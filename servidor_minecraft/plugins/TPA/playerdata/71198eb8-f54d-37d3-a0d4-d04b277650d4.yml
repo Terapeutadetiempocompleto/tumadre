@@ -1,0 +1,17 @@
+player_name: AAAAndre
+language: en_US
+setlang: false
+last_location:
+  world: world
+  x: 61.81917927292059
+  y: 64.23152379758702
+  z: -2301.368827672
+  pitch: 27.588745
+  yaw: 240.17798
+logout_location:
+  world: world
+  x: 219.96868965756855
+  y: 64.0
+  z: -2148.376903663207
+  pitch: -13.382633
+  yaw: 253.25938

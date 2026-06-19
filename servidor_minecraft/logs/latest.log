@@ -1,0 +1,271 @@
+[00:21:22] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[00:21:22] [main/INFO]: Reloading ResourceManager: Default, MazeRunner, bukkit, treecapitator-v2-6-2
+[00:21:23] [Worker-Main-1/INFO]: Loaded 7 recipes
+[00:21:25] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[00:21:25] [Server thread/INFO]: Loading properties
+[00:21:25] [Server thread/INFO]: This server is running Paper version git-Paper-794 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
+[00:21:25] [Server thread/INFO]: Debug logging is disabled
+[00:21:25] [Server thread/INFO]: Using 4 threads for Netty based IO
+[00:21:25] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[00:21:25] [Server thread/INFO]: Default game type: SURVIVAL
+[00:21:25] [Server thread/INFO]: Generating keypair
+[00:21:25] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:21:25] [Server thread/INFO]: Using epoll channel type
+[00:21:26] [Server thread/ERROR]: Could not load 'plugins/MineableSpawners-3.1.6 (1).jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.UnsupportedClassVersionError: com/dnyferguson/mineablespawners/MineableSpawners has been compiled by a more recent version of the Java Runtime (class file version 60.0), this version of the Java Runtime only recognizes class file versions up to 55.0
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:157) ~[patched_1.16.5.jar:git-Paper-794]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:414) ~[patched_1.16.5.jar:git-Paper-794]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:322) ~[patched_1.16.5.jar:git-Paper-794]
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.loadPlugins(CraftServer.java:393) ~[patched_1.16.5.jar:git-Paper-794]
+	at net.minecraft.server.v1_16_R3.DedicatedServer.init(DedicatedServer.java:269) ~[patched_1.16.5.jar:git-Paper-794]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:1074) ~[patched_1.16.5.jar:git-Paper-794]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:291) ~[patched_1.16.5.jar:git-Paper-794]
+	at java.lang.Thread.run(Thread.java:829) [?:?]
+Caused by: java.lang.UnsupportedClassVersionError: com/dnyferguson/mineablespawners/MineableSpawners has been compiled by a more recent version of the Java Runtime (class file version 60.0), this version of the Java Runtime only recognizes class file versions up to 55.0
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:1022) ~[?:?]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:201) ~[patched_1.16.5.jar:git-Paper-794]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:594) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:119) ~[patched_1.16.5.jar:git-Paper-794]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:114) ~[patched_1.16.5.jar:git-Paper-794]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:527) ~[?:?]
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:398) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:82) ~[patched_1.16.5.jar:git-Paper-794]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:153) ~[patched_1.16.5.jar:git-Paper-794]
+	... 7 more
+[00:21:26] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.5.53
+[00:21:26] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[00:21:26] [Server thread/INFO]: [TPA] Loading TPA v3.2.9
+[00:21:26] [Server thread/INFO]: [Minepacks] Loading Minepacks v2.5.7-T20260412221601
+[00:21:26] [Server thread/INFO]: [Minepacks] PCGF-PluginLib not installed. Switching to standalone mode!
+[00:21:26] [Server thread/INFO]: [floodgate] Loading floodgate v2.2.5-SNAPSHOT (b132-5a72b6a)
+[00:21:27] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[00:21:27] [Server thread/INFO]: [floodgate] Took 636ms to boot Floodgate
+[00:21:27] [Server thread/INFO]: [SilkSpawner1_16] Loading SilkSpawner1_16 v1.0-SNAPSHOT
+[00:21:27] [Server thread/INFO]: [Sit] Loading Sit v1.7.3
+[00:21:27] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v15.12.3
+[00:21:27] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[00:21:27] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.53
+[00:21:27] [Server thread/INFO]:         __    
+[00:21:27] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.53
+[00:21:27] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[00:21:27] [Server thread/INFO]: 
+[00:21:28] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[00:21:28] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[00:21:28] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[00:21:28] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1686ms)
+[00:21:28] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.12.3
+[00:21:29] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mRunning on Minecraft [33;1m1.16.5[32;1m.[0;39m
+[00:21:29] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mFloodgate skin listener registered[0;39m
+[00:21:30] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mUsing paper join listener![0;39m
+[00:21:30] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1m[33;1mYou are running an outdated Java version, please update it to at least Java 21 (your version is 11).[0;39m
+[00:21:30] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1m[33;1mSkinsRestorer no longer officially supports this version of Java, you are currently using an unsupported compatibility build.[0;39m
+[00:21:30] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1m[33;1mYou can still use the plugin, but you may encounter issues that are not present in newer versions of Java.[0;39m
+[00:21:30] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[00:21:30] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[00:21:30] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[00:21:30] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[00:21:30] [Server thread/INFO]: Preparing level "world"
+[00:21:30] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[00:21:30] [Server thread/INFO]: Preparing spawn area: 0%
+[00:21:30] [Server thread/INFO]: Preparing spawn area: 0%
+[00:21:31] [Server thread/INFO]: Time elapsed: 801 ms
+[00:21:31] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[00:21:31] [Server thread/INFO]: Preparing spawn area: 0%
+[00:21:31] [Server thread/INFO]: Time elapsed: 239 ms
+[00:21:31] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[00:21:31] [Server thread/INFO]: Time elapsed: 262 ms
+[00:21:31] [Server thread/INFO]: [TPA] Enabling TPA v3.2.9
+[00:21:31] [Server thread/INFO]: [Minepacks] Enabling Minepacks v2.5.7-T20260412221601
+[00:21:31] [Server thread/INFO]: [Minepacks] Starting Minepacks in standalone mode!
+[00:21:32] [Server thread/INFO]: [Minepacks] [32mConfig file successfully loaded.[0m
+[00:21:32] [Server thread/INFO]: [Minepacks] [32mLanguage file successfully loaded. Language: english  Author: GeorgH93[0m
+[00:21:32] [Server thread/INFO]: [Minepacks] Minepacks-Connection-Pool - Starting...
+[00:21:32] [Server thread/INFO]: [Minepacks] Minepacks-Connection-Pool - Start completed.
+[00:21:32] [Server thread/INFO]: [Minepacks] [32mItem name language file successfully loaded. Language: english  Author: GeorgH93[0m
+[00:21:32] [Server thread/INFO]: [Minepacks] Loading item translations ...
+[00:21:32] [Server thread/INFO]: [Minepacks] Finished loading item translations for 829 items.
+[00:21:32] [Server thread/INFO]: [Minepacks] [32m Minepacks has been enabled! [33m :) [0m
+[00:21:32] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.5-SNAPSHOT (b132-5a72b6a)
+[00:21:33] [Server thread/INFO]: [SilkSpawner1_16] Enabling SilkSpawner1_16 v1.0-SNAPSHOT
+[00:21:33] [Server thread/INFO]: [SilkSpawner] plugin has enable
+[00:21:33] [Server thread/INFO]: [Sit] Enabling Sit v1.7.3
+[00:21:33] [Server thread/INFO]: Running delayed init tasks
+[00:21:33] [Server thread/INFO]: Done (8.229s)! For help, type "help"
+[00:21:33] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] ************************************************************
+[00:21:33] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * WARNING - YOU ARE RUNNING AN OUTDATED VERSION OF JAVA.
+[00:21:33] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * PAPER WILL STOP BEING COMPATIBLE WITH THIS VERSION OF
+[00:21:33] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * JAVA WHEN MINECRAFT 1.17 IS RELEASED.
+[00:21:33] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
+[00:21:33] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Please update the version of Java you use to run Paper
+[00:21:33] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * to at least Java 16. When Paper for Minecraft 1.17 is
+[00:21:33] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * released support for versions of Java before 16 will
+[00:21:33] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * be dropped.
+[00:21:33] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
+[00:21:33] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Current Java version: 11.0.31
+[00:21:33] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
+[00:21:33] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Check this forum post for more information: 
+[00:21:33] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *   https://papermc.io/java16
+[00:21:33] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] ************************************************************
+[00:21:33] [Server thread/INFO]: Timings Reset
+[00:21:33] [Craft Scheduler Thread - 2/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[00:21:33] [Craft Scheduler Thread - 2/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +===================+[0;39m
+[00:21:33] [Craft Scheduler Thread - 2/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer   |[0;39m
+[00:21:33] [Craft Scheduler Thread - 2/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |-------------------|[0;39m
+[00:21:33] [Craft Scheduler Thread - 2/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m  |[0;39m
+[00:21:33] [Craft Scheduler Thread - 2/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +===================+[0;39m
+[00:21:33] [Craft Scheduler Thread - 2/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[00:21:33] [Craft Scheduler Thread - 2/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Version: [32;1m15.12.3[0;39m
+[00:21:33] [Craft Scheduler Thread - 2/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Commit: [32;1m03cc9fd[0;39m
+[00:21:33] [Craft Scheduler Thread - 2/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
+[00:21:33] [Craft Scheduler Thread - 2/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[00:21:33] [Craft Scheduler Thread - 2/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
+[00:21:33] [Craft Scheduler Thread - 2/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mWant to support SkinsRestorer or receive priority support? Become a supporter: [33;1mhttps://skinsrestorer.net/pricing[0;39m
+[00:21:33] [Craft Scheduler Thread - 0/INFO]: [TPA] 插件已成功加载！当前版本为：3.2.9
+[00:21:33] [Craft Scheduler Thread - 0/INFO]: [TPA] 正在检查更新...
+[00:21:33] [Craft Scheduler Thread - 0/INFO]: [TPA] 当前已是最新版本
+[00:21:34] [User Authenticator #1/INFO]: UUID of player AAAAndre is 71198eb8-f54d-37d3-a0d4-d04b277650d4
+[00:21:34] [Server thread/INFO]: AAAAndre joined the game
+[00:21:35] [Server thread/INFO]: AAAAndre[/10.122.144.214:54550] logged in with entity id 102 at ([world]184.9731716717759, 65.33226489655115, -2235.9457873102547)
+[00:21:51] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[00:22:53] [User Authenticator #2/INFO]: UUID of player MarioIntro is ad10c032-bb56-316a-a321-735e761de903
+[00:22:53] [Server thread/INFO]: MarioIntro joined the game
+[00:22:53] [Server thread/INFO]: MarioIntro[/10.122.144.160:54657] logged in with entity id 253 at ([world]224.53378095450478, 65.0, -2155.0374063607414)
+[00:23:05] [User Authenticator #2/INFO]: UUID of player elhardyd is 8fcd0aa3-cb46-37c5-bffa-db93b592bad1
+[00:23:05] [Server thread/INFO]: elhardyd joined the game
+[00:23:05] [Server thread/INFO]: elhardyd[/10.122.144.70:55279] logged in with entity id 307 at ([world]234.44075836413313, 68.0, -2150.046821269601)
+[00:23:07] [Async Chat Thread - #0/INFO]: <AAAAndre> pe
+[00:23:11] [Async Chat Thread - #0/INFO]: <AAAAndre> en
+[00:23:19] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[00:23:30] [Async Chat Thread - #0/INFO]: <AAAAndre> work all day and then i wake up
+[00:23:50] [Server thread/INFO]: MarioIntro has made the advancement [Stone Age]
+[00:23:58] [Async Chat Thread - #0/INFO]: <AAAAndre> hardyd me perdi en el laberinto puta madre
+[00:24:11] [Server thread/INFO]: elhardyd has made the advancement [Getting an Upgrade]
+[00:24:53] [Async Chat Thread - #0/INFO]: <AAAAndre> ty hardyd
+[00:24:56] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[00:25:00] [Async Chat Thread - #0/INFO]: <AAAAndre> ando bien cachondo hardyd
+[00:25:05] [Server thread/INFO]: MarioIntro has made the advancement [Getting an Upgrade]
+[00:25:58] [Server thread/INFO]: AAAAndre lost connection: Disconnected
+[00:25:58] [Server thread/INFO]: AAAAndre left the game
+[00:26:58] [Server thread/INFO]: elhardyd was shot by Skeleton
+[00:27:07] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[00:27:25] [Server thread/INFO]: MarioIntro has made the advancement [Monster Hunter]
+[00:28:08] [User Authenticator #3/INFO]: UUID of player AAAAndre is 71198eb8-f54d-37d3-a0d4-d04b277650d4
+[00:28:08] [Server thread/INFO]: AAAAndre joined the game
+[00:28:08] [Server thread/INFO]: AAAAndre[/10.122.144.214:65104] logged in with entity id 1161 at ([world]203.88831239757744, 64.0, -2269.9048090137617)
+[00:28:13] [Server thread/INFO]: elhardyd was shot by Skeleton
+[00:28:23] [Async Chat Thread - #1/INFO]: <AAAAndre> mor mor mor mooooor
+[00:28:41] [Async Chat Thread - #1/INFO]: <AAAAndre> alecchiman el mejor peru
+[00:29:15] [Server thread/INFO]: AAAAndre issued server command: /tpa elhardyd
+[00:29:18] [Async Chat Thread - #1/INFO]: <AAAAndre> acepta
+[00:29:21] [Server thread/INFO]: elhardyd has made the advancement [Monster Hunter]
+[00:29:21] [Async Chat Thread - #1/INFO]: <AAAAndre> estoy perdido
+[00:29:22] [Async Chat Thread - #1/INFO]: <AAAAndre> sob
+[00:29:42] [Async Chat Thread - #1/INFO]: <AAAAndre> haaaardyd
+[00:29:46] [Async Chat Thread - #1/INFO]: <AAAAndre> acepta
+[00:29:50] [Server thread/INFO]: AAAAndre issued server command: /tpa elhardyd
+[00:29:51] [Async Chat Thread - #1/INFO]: <elhardyd> TIENES QUE BAJAR
+[00:29:57] [Async Chat Thread - #1/INFO]: <AAAAndre> neaaa
+[00:30:01] [Async Chat Thread - #1/INFO]: <AAAAndre> estoy en el laberinto
+[00:30:03] [Async Chat Thread - #1/INFO]: <AAAAndre> HAAHAH
+[00:30:17] [Server thread/INFO]: AAAAndre has made the advancement [Monster Hunter]
+[00:30:23] [Server thread/INFO]: AAAAndre issued server command: /tpa elhardyd
+[00:30:26] [Async Chat Thread - #1/INFO]: <AAAAndre> me muero pto
+[00:31:04] [Server thread/INFO]: AAAAndre fell from a high place
+[00:31:22] [Server thread/INFO]: AAAAndre has made the advancement [Sweet Dreams]
+[00:31:32] [Server thread/INFO]: elhardyd has made the advancement [Acquire Hardware]
+[00:32:11] [Server thread/INFO]: MarioIntro was slain by Zombie
+[00:32:30] [Async Chat Thread - #2/INFO]: <AAAAndre> los huevos
+[00:33:45] [Async Chat Thread - #3/INFO]: <AAAAndre> que rico que tilin se meta a mi cuerpo y me robe el alma mrk
+[00:34:17] [Async Chat Thread - #3/INFO]: <AAAAndre> que rico ver tiktok
+[00:35:38] [Async Chat Thread - #4/INFO]: <AAAAndre> que rico el senor del sombrero
+[00:35:43] [Async Chat Thread - #4/INFO]: <AAAAndre> XDD
+[00:35:45] [Async Chat Thread - #4/INFO]: <AAAAndre> ese man
+[00:35:46] [Server thread/INFO]: elhardyd has made the advancement [Isn't It Iron Pick]
+[00:36:53] [Server thread/INFO]: AAAAndre has made the advancement [Acquire Hardware]
+[00:37:28] [Async Chat Thread - #5/INFO]: <AAAAndre> tenia vision termica
+[00:37:43] [Async Chat Thread - #5/INFO]: <AAAAndre> ese man
+[00:38:05] [Async Chat Thread - #5/INFO]: <AAAAndre> un dia me asuste por un ruido y lo primero que dije fue que era un creeper
+[00:38:16] [Async Chat Thread - #5/INFO]: <elhardyd> xdddddd
+[00:42:52] [Server thread/INFO]: AAAAndre has made the advancement [Suit Up]
+[00:42:52] [Server thread/INFO]: AAAAndre has made the advancement [Isn't It Iron Pick]
+[00:43:24] [Server thread/INFO]: AAAAndre has made the advancement [Not Today, Thank You]
+[00:43:50] [Async Chat Thread - #6/INFO]: <AAAAndre> SIX SEVENSITOS DE CORAZON
+[00:45:13] [Async Chat Thread - #7/INFO]: <AAAAndre> yo hablando con la que me gusta
+[00:45:30] [Server thread/INFO]: elhardyd has made the advancement [Suit Up]
+[00:46:06] [Async Chat Thread - #7/INFO]: <AAAAndre> pay gorn
+[00:46:20] [Async Chat Thread - #7/INFO]: <AAAAndre> hardyd cuando una fornicada bailable
+[00:46:49] [Async Chat Thread - #7/INFO]: <AAAAndre> uFFF
+[00:46:55] [Async Chat Thread - #7/INFO]: <AAAAndre> heu voa pegar
+[00:47:37] [Async Chat Thread - #7/INFO]: <AAAAndre> el fl studio
+[00:51:36] [Server thread/INFO]: MarioIntro has made the advancement [Acquire Hardware]
+[00:51:59] [Server thread/INFO]: MarioIntro has made the advancement [Suit Up]
+[00:52:22] [Server thread/INFO]: AAAAndre drowned
+[00:52:23] [Server thread/INFO]: MarioIntro has made the advancement [Isn't It Iron Pick]
+[00:54:49] [Server thread/INFO]: MarioIntro has made the advancement [We Need to Go Deeper]
+[00:54:54] [Async Chat Thread - #8/INFO]: <AAAAndre> ñ
+[00:55:04] [Server thread/INFO]: MarioIntro issued server command: /tpa elhardyd
+[00:55:05] [Async Chat Thread - #8/INFO]: <AAAAndre> xD
+[00:55:18] [Server thread/INFO]: elhardyd issued server command: /tpaccept
+[00:56:13] [Server thread/INFO]: elhardyd has made the advancement [We Need to Go Deeper]
+[00:56:21] [Server thread/INFO]: elhardyd issued server command: /tpa AAAAndre
+[00:56:23] [Server thread/INFO]: MarioIntro issued server command: /tpa AAAAndre
+[00:56:25] [Server thread/INFO]: AAAAndre issued server command: /tpaccept
+[00:56:28] [Server thread/INFO]: elhardyd issued server command: /tpa AAAAndre
+[00:56:30] [Server thread/INFO]: AAAAndre issued server command: /tpaccept
+[00:56:33] [Server thread/INFO]: AAAAndre issued server command: /tpaccept
+[00:56:33] [Server thread/INFO]: AAAAndre issued server command: /tpaccept
+[00:56:34] [Server thread/INFO]: AAAAndre issued server command: /tpaccept
+[00:56:43] [Server thread/INFO]: MarioIntro issued server command: /tpa AAAAndre
+[00:56:46] [Server thread/INFO]: AAAAndre issued server command: /tpaccept
+[00:58:02] [Async Chat Thread - #9/INFO]: <AAAAndre> yo cree ese mod
+[00:58:03] [Server thread/INFO]: elhardyd issued server command: /tpa AAAAndre
+[00:58:06] [Server thread/INFO]: AAAAndre issued server command: /tpaccept
+[01:00:23] [Async Chat Thread - #10/INFO]: <AAAAndre> marlow es hombre
+[01:02:16] [Server thread/INFO]: AAAAndre lost connection: Disconnected
+[01:02:16] [Server thread/INFO]: AAAAndre left the game
+[01:02:28] [User Authenticator #4/INFO]: UUID of player AAAAndre is 71198eb8-f54d-37d3-a0d4-d04b277650d4
+[01:02:28] [Server thread/INFO]: AAAAndre joined the game
+[01:02:28] [Server thread/INFO]: AAAAndre[/10.122.144.214:50513] logged in with entity id 6303 at ([world]226.7224387778842, 64.0, -2138.1567896318347)
+[01:02:39] [Async Chat Thread - #11/INFO]: <AAAAndre> hardyd maldito
+[01:03:24] [Async Chat Thread - #11/INFO]: <AAAAndre> se aspira el micro
+[01:04:10] [Async Chat Thread - #11/INFO]: <AAAAndre> xdd
+[01:05:30] [Async Chat Thread - #12/INFO]: <AAAAndre> oh pene
+[01:07:41] [Server thread/INFO]: elhardyd has made the advancement [Not Today, Thank You]
+[01:08:40] [Server thread/INFO]: AAAAndre was slain by Reaper
+[01:08:49] [Server thread/INFO]: elhardyd was slain by Reaper
+[01:08:52] [Async Chat Thread - #13/INFO]: <AAAAndre> me mato el destripador
+[01:08:55] [Async Chat Thread - #13/INFO]: <AAAAndre> JAJAJAJ
+[01:09:09] [Async Chat Thread - #13/INFO]: <elhardyd> me folle solo
+[01:10:22] [Async Chat Thread - #14/INFO]: <AAAAndre> que rico el dest
+[01:10:45] [Async Chat Thread - #14/INFO]: <AAAAndre> los destripadores en spanish gays
+[01:10:47] [Async Chat Thread - #14/INFO]: <AAAAndre> guys
+[01:10:51] [Async Chat Thread - #14/INFO]: <elhardyd> xd
+[01:11:05] [Async Chat Thread - #14/INFO]: <AAAAndre> xddd
+[01:11:06] [Async Chat Thread - #14/INFO]: <AAAAndre> si
+[01:13:24] [Server thread/INFO]: AAAAndre lost connection: Disconnected
+[01:13:24] [Server thread/INFO]: AAAAndre left the game
+[01:13:33] [User Authenticator #5/INFO]: UUID of player AAAAndre is 71198eb8-f54d-37d3-a0d4-d04b277650d4
+[01:13:33] [Server thread/INFO]: AAAAndre joined the game
+[01:13:33] [Server thread/INFO]: AAAAndre[/10.122.144.214:56688] logged in with entity id 8678 at ([world]219.96868965756855, 64.0, -2148.376903663207)
+[01:14:06] [Server thread/INFO]: MarioIntro has made the advancement [Diamonds!]
+[01:14:34] [Server thread/INFO]: AAAAndre lost connection: Disconnected
+[01:14:34] [Server thread/INFO]: AAAAndre left the game
+[01:14:36] [Server thread/ERROR]: Block at 266, 59, -2,182 is Block{minecraft:barrier} but has net.minecraft.server.v1_16_R3.TileEntityChest@138011c4. Bukkit will attempt to fix this, but there may be additional damage that we cannot recover.
+[01:24:14] [Server thread/INFO]: elhardyd fell from a high place
+[01:24:46] [User Authenticator #6/INFO]: UUID of player lobito_QWQ is 4f40e78f-251e-3372-8301-d16764529cf3
+[01:24:46] [Server thread/INFO]: lobito_QWQ joined the game
+[01:24:46] [Server thread/INFO]: lobito_QWQ[/10.122.144.107:57498] logged in with entity id 11017 at ([world]231.5, 66.0, -2146.5)
+[01:25:13] [Server thread/WARN]: lobito_QWQ moved too quickly! 4.7403579558589115,-0.24785109963254115,-10.075821456824997
+[01:25:33] [Server thread/INFO]: lobito_QWQ has made the advancement [Getting an Upgrade]
+[01:25:50] [Server thread/INFO]: lobito_QWQ has made the advancement [Stone Age]
+[01:26:08] [Server thread/INFO]: MarioIntro issued server command: /tpa lobito_QWQ
+[01:26:19] [Server thread/INFO]: lobito_QWQ issued server command: /tpaccept
+[01:26:34] [Server thread/INFO]: lobito_QWQ has made the advancement [Acquire Hardware]
+[01:28:00] [Server thread/INFO]: lobito_QWQ has made the advancement [Suit Up]
+[01:28:00] [Server thread/INFO]: lobito_QWQ has made the advancement [Isn't It Iron Pick]
+[01:28:47] [Server thread/INFO]: elhardyd has made the advancement [Diamonds!]
+[01:29:49] [Server thread/INFO]: MarioIntro has made the advancement [What a Deal!]
+[01:30:02] [Server thread/INFO]: MarioIntro issued server command: /back

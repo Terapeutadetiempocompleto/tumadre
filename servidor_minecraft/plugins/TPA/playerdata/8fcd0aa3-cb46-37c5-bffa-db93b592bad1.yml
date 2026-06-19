@@ -1,0 +1,17 @@
+player_name: elhardyd
+language: en_US
+setlang: false
+last_location:
+  world: world
+  x: 262.096136309407
+  y: 67.0
+  z: -2121.0264870991746
+  pitch: 52.475235
+  yaw: 98.47266
+logout_location:
+  world: world
+  x: 390.5
+  y: 5.0
+  z: -2162.5
+  pitch: 0.0
+  yaw: 0.0

@@ -1,0 +1,11 @@
+{ 
+	"variants":{ 
+		"":[ 
+			{"model":"block/bedrock/0","weight":40}, 
+			{"model":"block/bedrock/1","weight":20},
+			{"model":"block/bedrock/2","weight":20}, 
+			{"model":"block/bedrock/3","weight":5},
+			{"model":"block/bedrock/4","weight":5}  
+		] 
+	} 
+} 
